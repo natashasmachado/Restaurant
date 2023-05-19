@@ -7,7 +7,6 @@
 
 import Foundation
 
-
 struct MenuItem: Codable {
   var id: Int
   var name: String

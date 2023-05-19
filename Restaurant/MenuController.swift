@@ -9,7 +9,11 @@ import Foundation
 
 
 class MenuController {
+static let shared = MenuController()
+  
   let baseURL = URL(string: "http://localhost:8080/")!
+//  let categories = try await MenuController.shared.fetchCategories()
+//  let menuItems = try await MenuController.shared.fetchMenuItems(forCategory: category)
   
   
   enum MenuControllerError: Error, LocalizedError {
